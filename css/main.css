@@ -1,0 +1,95 @@
+html {
+  font-family: "Unica One", sans-serif;
+}
+
+h1 {
+  color: #fff;
+  animation: blur 1s linear;
+  transform: translateX(-320px);
+  transform: translateY(-500px);
+  z-index: 1000;
+}
+
+#narwhal-eye {
+  animation: blur 1s linear forwards;
+  opacity: 0;
+  animation-delay: 4s;
+}
+
+#narwhal-body {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1890px;
+  animation-delay: 1s;
+}
+
+#rainbow-indigo {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-violet {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1920px;
+  stroke-dashoffset: 1950px;
+  animation-delay: 2s;
+}
+
+#rainbow-blue {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1920px;
+  stroke-dashoffset: 1950px;
+  animation-delay: 2s;
+}
+
+#rainbow-green {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-yellow {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-orange {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+#rainbow-red {
+  animation: offset 2s linear forwards;
+  stroke-dasharray: 1900px;
+  stroke-dashoffset: 1900px;
+  animation-delay: 2s;
+}
+
+@keyframes offset {
+
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+}
+
+@keyframes blur {
+
+  0% {
+    opacity: 0;
+    filter: blur(7px);
+  }
+
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+
+}
